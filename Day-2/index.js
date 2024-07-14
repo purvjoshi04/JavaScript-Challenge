@@ -38,78 +38,78 @@ function arithmetic() {
     return result;
 }
 
-// let result = arithmetic();
-// console.log(result);
+let result = arithmetic();
+console.log(result);
 
 // Activity 2 : Assignment Operators
 
 // Task-6: Use the += operators to add a number to a variable and log the result to the console.
 
-// let num1 = 20;
-// let num2 = 30;
+let num1 = 20;
+let num2 = 30;
 
-// let newResult = num1 += num2;
+let newResult = num1 += num2;
 
-// console.log(newResult);
+console.log(newResult);
 
-// Task-6: Use the += operators to add a number to a variable and log the result to the console.
+// Task-6: Use the -= operators to add a number to a variable and log the result to the console.
 
-// let subResult = num1 -= num2;
-// console.log(subResult);
+let subResult = num1 -= num2;
+console.log(subResult);
 
 // Activity-3: Comparison Operators
 
 // Task-8: Write a program to compare two numbers using > and < and log the resukt to the console.
-// let number1 = 10
-// let number2 = 5;
+let number1 = 10
+let number2 = 5;
 
-// function bigNum(a, b) {
+function bigNum(a, b) {
 
-//     if (a > b) {
-//         return a;
-//     } else if (a < b) {
-//         return b;
-//     } else {
-//         return "Can not find bigger number!"
-//     }
-// }
+    if (a > b) {
+        return a;
+    } else if (a < b) {
+        return b;
+    } else {
+        return "Can not find bigger number!"
+    }
+}
 
-// let obj = bigNum(number1, number2);
-// console.log(obj);
+let obj = bigNum(number1, number2);
+console.log(obj);
 
 // Task-9 write a program to compare two numbers using >= and <= and log the result to the console.
 
-// let one = 5;
-// let two = 5;
+let one = 5;
+let two = 5;
 
-// function orEqual (a,b) {
-//     if ( a >= b ) {
-//         return true;
-//     }else if ( a <= b) {
-//         return true
-//     }else {
-//         return false
-//     }
-// }
+function orEqual (a,b) {
+    if ( a >= b ) {
+        return true;
+    }else if ( a <= b) {
+        return true
+    }else {
+        return false
+    }
+}
 
-// let equal = orEqual(one, two);
-// console.log(equal);
+let equal = orEqual(one, two);
+console.log(equal);
 
 // Task-10: Write a program to compare two numbers using == and === and log the result to the console.
 
-// let numOne = 20;
-// let numTwo = 20;
+let numOne = 20;
+let numTwo = 20;
 
-// function equalTo (a,b) {
-//     if (a==b || a===b){
-//         return true
-//     }else {
-//         return false;
-//     }
-// }
+function equalTo (a,b) {
+    if (a==b || a===b){
+        return true
+    }else {
+        return false;
+    }
+}
 
-// let objOne = equalTo(numOne, numTwo);
-// console.log(objOne);
+let objOne = equalTo(numOne, numTwo);
+console.log(objOne);
 
 // Activity-4: Logical Operators
 
