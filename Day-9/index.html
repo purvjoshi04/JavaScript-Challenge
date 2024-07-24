@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+        #text-mouseover {
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<br>
+    <div id="divID">Hello World</div>
+    <div class="bg-color">Hello world</div>
+    <div class="bg-color">Another Hello world</div>
+    <ul id="ul-list">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <div id="element">This is the element to be removed.</div>
+    <button onclick="removeElement()">Remove Element</button><br></br>
+    <button onclick="removeLastElement()">Remove Last Element of UL</button><br></br>
+    <button onclick="changeSrc()">Change img tag src</button><br></br>
+    
+    <p id="p-tag">This is a paragraph that will be highlighted.</p>
+    <button onclick="addClass()">Add class</button><br>
+    <button onclick="removeClass()">Remove Class</button><br>
+    <p id="text-change">This text will be change after clicking button.</p><br>
+    <button id="change-text-btn">Change Text.</button>
+    <p id="text-mouseover">Hover over this element.</p>
+    <img id="img" src="https://images.pexels.com/photos/34950/pexels-photo.jpg">
+    <script src="index.js"></script><br></br>
+</body>
+</html>
